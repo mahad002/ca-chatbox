@@ -14,7 +14,7 @@ export default function Chatbot() {
   const [isLoading, setIsLoading] = useState(false)
   const [isChatStarted, setIsChatStarted] = useState(false)
 
-  const Backend_URL = 'http://3.110.47.35:5000/query'
+  const Backend_URL = 'https://ca-chatbot.onrender.com/query'
 
   const handleStartChat = (e: React.FormEvent) => {
     e.preventDefault()
